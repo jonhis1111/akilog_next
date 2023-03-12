@@ -1,0 +1,16 @@
+.contentWrap {
+  display: flex;
+  gap: 10px;
+  width: auto;
+  max-width: 1000px;
+  margin: 10px auto 0;
+  padding: 0 10px;
+}
+
+.leftWrap {
+  width: 100%;
+}
+
+.mainWrap {
+  margin-top: 10px;
+}

@@ -1,0 +1,25 @@
+.wrap {
+  border: 1px solid #999;
+  padding: 20px 15px;
+  border-radius: 10px;
+}
+
+.buttonWrap {
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.button {
+  padding: 15px 30px;
+  background: #00bfff;
+  border-radius: 30px;
+  font-size: 20px;
+  color: #fff;
+  font-weight: 700;
+  line-height: 1.4;
+  text-align: center;
+}
+
+.button:hover {
+  opacity: 0.8;
+}

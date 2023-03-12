@@ -1,0 +1,42 @@
+
+.wrap {
+  max-width: 300px;
+  padding: 20px 15px;
+  border: 1px solid #999;
+  border-radius: 10px;
+}
+
+.imgWrap {
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.imgWrap > img {
+  display: block;
+  width: 100%;
+  max-width: 120px;
+  border-radius: 50%;
+}
+
+.titleWrap {
+  width: fit-content;
+  margin: 7px auto 0;
+}
+
+.title {
+  font-size: 20px;
+  color: #00bfff;
+  font-weight: 700;
+  line-height: 1.4;
+  text-align: center;
+}
+
+.textWrap {
+  margin-top: 5px;
+}
+
+.text {
+  font-size: 18px;
+  color: #696969;
+  line-height: 1.4;
+}

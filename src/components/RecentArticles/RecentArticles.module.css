@@ -1,0 +1,36 @@
+.wrap {
+  max-width: 300px;
+  padding: 20px 15px;
+}
+
+.titleWrap {
+  padding-bottom: 5px;
+  border-bottom: 1px solid #9191918c;
+}
+
+.title {
+  color: #919191;
+  font-size: 20px;
+  line-height: 1.4;
+  font-weight: 600;
+}
+
+.listsWrap {
+  margin-top: 5px;
+}
+
+.list {
+  list-style: none;
+}
+
+.list:not(:first-of-type) {
+  margin-top: 5px;
+}
+
+.listTitle {
+  color: #00bfff;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.4;
+}
+

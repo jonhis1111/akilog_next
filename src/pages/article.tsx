@@ -5,6 +5,7 @@ import { FirstView } from '@/components/FirstView';
 import { PageNavigation } from '@/components/PageNavigation';
 import { ArticleList } from '@/components/ArticleList';
 import classes from "src/components/Top/Top.module.css"
+import { ArticleDetail } from '@/components/ArticleDetail';
 
 interface Post {
   id: number;
@@ -30,10 +31,8 @@ export default function Blog({ posts } : Props) {
             <PageNavigation />
           </div>
           <div className={classes.mainWrap}>
-            <ArticleList
-              posts={posts}
-            />
           </div>
+            <ArticleDetail posts={posts}/>
          </div>
 
         <div className={classes.rightWrap}>
