@@ -5,6 +5,7 @@ interface Post {
   id: number;
   slug: string;
   title: { rendered: string };
+  date: string;
 }
 
 interface Props {
