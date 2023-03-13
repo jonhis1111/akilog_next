@@ -5,7 +5,7 @@ export function Profile() {
     <div className={classes.wrap}>
       {/* プロフィール */}
       <div className={classes.imgWrap}>
-        <img src="usagi.jpeg" alt="" max-width="100%" height="auto" loading='lazy' />
+        <img src="/usagi.jpeg" alt="" max-width="100%" height="auto" loading='lazy' />
       </div>
       <div className={classes.titleWrap}>
         <h2 className={classes.title}>しんじょう</h2>

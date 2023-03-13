@@ -1,22 +1,22 @@
 import Link from "next/link";
 import classes from "src/components/ArticleList/ArticleList.module.css"
 
-// interface Post {
-//   id: number;
-//   slug: string;
-//   title: { rendered: string };
-//   date: string;
-// }
+export interface Post {
+  id: number;
+  slug: string;
+  title: { rendered: string };
+  date: string;
+}
 
-// interface Props {
-//   posts: Post[];
-// }
+interface Props {
+  posts: Post[];
+}
 
-export function ArticleList(posts: any) {
+export function ArticleList({posts}: Props) {
   return (
     <div className={classes.wrap}>
       <div className={classes.listsWrap}>
-        {/* <ul className={classes.lists}>
+        <ul className={classes.lists}>
           {posts.map((post) => (
             <li className={classes.list} key={post.id}>
               <Link href={`/blog/${post.slug}`}>
@@ -25,7 +25,7 @@ export function ArticleList(posts: any) {
               </Link>
             </li>
           ))}
-        </ul> */}
+        </ul>
       </div>
     </div>
   );
