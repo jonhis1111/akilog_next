@@ -1,6 +1,11 @@
 .wrap {
   max-width: 300px;
   padding: 20px 15px;
+}@media screen and (max-width:767px) {
+  .wrap {
+    max-width: none;
+  }
+
 }
 
 .titleWrap {

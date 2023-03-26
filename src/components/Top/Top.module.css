@@ -5,6 +5,10 @@
   max-width: 1000px;
   margin: 10px auto 0;
   padding: 0 10px;
+}@media screen and (max-width:767px) {
+  .contentWrap {
+    flex-direction: column;
+  }
 }
 
 .leftWrap {

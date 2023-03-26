@@ -17,4 +17,8 @@
   font-weight: 700;
   line-height: 1.4;
   text-align: center;
+}@media screen and (max-width:767px) {
+  .title {
+    font-size: 45px;
+  }
 }
