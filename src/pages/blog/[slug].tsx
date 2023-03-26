@@ -9,7 +9,7 @@ export async function getStaticPaths() {
   return { paths, fallback: true };
 }
 
-export async function getStaticProps({ params }) {
+export async function getStaticProps({ params }:any) {
   const { slug } = params;
   const res = await fetch(`https://late-arita-7120.under.jp/wp-json/wp/v2/posts?slug=${slug}`);
   const [post] = await res.json();
