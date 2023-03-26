@@ -3,7 +3,7 @@ import Head from 'next/head';
 export async function getStaticPaths() {
   const res = await fetch('https://late-arita-7120.under.jp/wp-json/wp/v2/posts');
   const posts = await res.json();
-  const paths = posts.map((post) => ({
+  const paths = posts.map((post: any) => ({
     params: { slug: post.slug },
   }));
   return { paths, fallback: true };
