@@ -20,7 +20,7 @@ export async function getStaticProps({ params }:any) {
   };
 }
 
-export default function Post({ post }) {
+export default function Post({ post }:any) {
   return (
     <>
       <Head>
