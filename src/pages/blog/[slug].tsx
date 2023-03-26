@@ -29,8 +29,11 @@ export async function getStaticProps({ params }:any) {
 
 type Props = {
   posts: {
+    id: number;
+    slug: string;
     title: { rendered: string };
     content: { rendered: string };
+    date: { rendered: string };
   };
 }
 
@@ -50,7 +53,7 @@ const Post: React.FC<Props> = ({ posts }) => {
             <PageNavigation />
           </div>
           <div className={classes.mainWrap}>
-            <PostContent title={posts.title.rendered} content={posts.content.rendered} />
+            <PostContent title={posts.title.rendered} content={posts.content.rendered} date={posts.date.rendered} />
           </div>
         </div>
 
